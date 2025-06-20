@@ -1,0 +1,162 @@
+/* Background */
+.post-list-container {
+    padding: 2rem;
+    background-color:#EDDD53; 
+    min-height: 100vh;
+  }
+  
+  /* Categories */
+  .categories-section {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  .recipe-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Image zoom effect */
+  .recipe-card img {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .recipe-card:hover img {
+    transform: scale(1.15);
+  }
+  
+  .section-title {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .recipe-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+    height: 100%; /* allows Bootstrap column height to define layout */
+    display: flex;
+    flex-direction: column;
+  }
+  /* Make the card's image fill the space and maintain the aspect ratio */
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the space without distorting */
+}
+
+/* Make sure the cards take the full height and look uniform */
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Adjust button layout */
+.d-flex {
+  display: flex;
+  gap: 10px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .recipe-card {
+    height: auto;
+  }
+  .card-img-top {
+    height: 150px; /* Adjust image size on smaller screens */
+  }
+}
+
+  .recipe-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card.recipe-card {
+    min-height: 600px; /* force equal height across all cards */
+  }
+  
+  
+  .categories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .category-btn {
+    border: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .category-btn:hover,
+  .category-btn.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .clear-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  /* Recipe Card */
+  .recipe-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .recipe-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .ingredients-list,
+  .instructions-list {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .tags .badge {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  .food{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: CoffeeHealing-1GrKe;
+  }
+ 
+
+body {
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png');
+  
+}
+
+
+  
+  
